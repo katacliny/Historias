@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-(nil+k&aw5#a55hex^q+7npirbas*jr88&py6yo%78h2qa$l7h
 DEBUG = True
 
 ALLOWED_HOSTS = ["seahorse-app-2ryw7.ondigitalocean.app"]
-
+CSRF_TRUSTED_ORIGINS = ["https://seahorse-app-2ryw7.ondigitalocean.app does"]
 
 # Application definition
 
